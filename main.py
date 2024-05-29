@@ -3,9 +3,10 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma, FAISS
 import streamlit as st
-from dotenv import load_dotenv
+from dotenv import load_dotenv, find_dotenv
 from htmlTemplates import css, bot_template, user_template
 
+load_dotenv(find_dotenv())
 
 llm = ChatOpenAI()
 
