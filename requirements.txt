@@ -17,7 +17,7 @@ onnx==1.16.1
 onnxruntime==1.18.0
 openai==1.30.1
 opencv-python==4.9.0.80
-
+faiss-cpu
 pandas==2.1.4
 
 pillow==10.2.0
